@@ -1,0 +1,163 @@
+@keyframes changeBackgroundColor {
+
+    50% {
+
+        background-color: #f4f8fa;
+
+    }
+
+    100% {
+        background-color: #0e1423;
+    }
+}
+
+body {
+
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #0e1421;
+
+
+
+}
+
+
+.cabecalho {
+
+    background-color: #030712;
+    height: 15vh;
+}
+
+.stylesLogo {
+    display: block;
+    transform: translate(120px, -504px);
+    width: 2px;
+    height: 10vh;
+    background-color: #808080;
+}
+
+.titulo { 
+    display: block;  
+    position: absolute;
+    top: -8px;
+    font-family: "Days Sans Black", sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+    margin: 0;
+    padding: 10px;
+    color: #808080;
+
+
+}
+
+.linhas_3 {
+
+    position: absolute;
+    top: 30px;
+    width: 40px;
+    height: 56px;
+    cursor: pointer;
+}
+
+.linha1 {
+    width: 20px;
+    background-color: #808080;
+    height: 3px;
+    top: 0;
+    position: relative;
+    border-radius: 3px 3px 3px 3px;
+    right: -0.9em;
+}
+
+.linha2 {
+    margin-top: 5px;
+    height: 3px;
+    width: 20px;
+    background-color: #808080;
+    border-radius: 3px 3px 3px 3px;
+    position: relative;
+    right: -0.9em;
+}
+
+.linha3 {
+    width: 20px;
+    height: 3px;
+    background-color: #808080;
+    position: relative;
+    border-radius: 3px 3px 3px 3px;
+    right: -0.9em;
+    margin-top: 5px;
+}
+
+
+.box {
+    background-color: #030712;
+    height: 100vh;
+    width: 0;
+    position: fixed;
+    display: none;
+    
+   
+    left: -250;
+    
+    z-index: 4;
+    transition: right 7ms ease-in-out;
+    bottom: 0;
+    
+}
+
+.m1 {
+    display: block;
+    color: #bababa;
+    margin-left: 5px;
+    padding: 28px;
+
+}
+
+.home img {
+
+    position: fixed;
+    top: 50px;
+    display: block;
+    align-items: start;
+    margin: 0;
+    padding: 0;
+    height: 30px;
+    width: 30px;
+}
+
+#fecha_Box {
+    position: absolute;
+    margin: 0;
+    cursor: pointer;
+    height: 27px;
+    width: 10px;
+    top: 5%;
+    left: 92%;
+}
+
+.x1 {
+    position: absolute;
+    width: 2px;
+    height: 27px;
+    margin: 0;
+    background-color: #bababa;
+    display: block;
+    content: "";
+    top: 5%;
+    left: 95%;
+    transform: rotate(40deg);
+}
+
+.x2 {
+    position: absolute;
+    width: 2px;
+    height: 27px;
+    background-color: #bababa;
+    display: block;
+    content: "";
+    top: 5%;
+    left: 95%;
+    transform: rotate(138deg);
+}
