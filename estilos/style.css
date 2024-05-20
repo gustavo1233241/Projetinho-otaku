@@ -179,7 +179,7 @@ body {
 }
 
 
-.tbate {
+.cards {
     padding:0;
     margin-left: 200px;
     margin-top: 200px;
@@ -189,10 +189,21 @@ body {
     border-radius: 12px 12px 12px 12px;
 }
 
-.img_tbate {
+.tbate{
+
+
+    margin-left: 200px;
+}
+.mercenary{
+    margin-top: -300px;
+    margin-left: 500px;
+}
+
+.img_cards {
 
     border-radius: 12px 12px 12px 12px;
     height: 300px;
+    width: 200px;
 }
 
 p {
