@@ -9,6 +9,7 @@ function btnOffcanvas() {
 
         box_OffCavas.style.width = '30vw';
         box_OffCavas.style.display = 'block';
+        box_OffCavas.style.height = '100vh';
      
         interruptor = false
 
@@ -18,6 +19,7 @@ function btnOffcanvas() {
 
     else {
         box_OffCavas.style.width = '0vw';
+        box_OffCavas.style.height = '0vh';
         box_OffCavas.style.display = 'none';
         
 

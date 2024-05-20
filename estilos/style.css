@@ -26,27 +26,29 @@ body {
 .cabecalho {
 
     background-color: #030712;
-    height: 15vh;
+    height: 10vh;
 }
 
 .stylesLogo {
     display: block;
     transform: translate(120px, -504px);
     width: 2px;
-    height: 10vh;
+    height: 7vh;
     background-color: #808080;
 }
 
-.titulo { 
-    display: block;  
+.titulo {
+    display: block;
     position: absolute;
-    top: -8px;
+    padding: 0;
+    top: -40px;
+    margin-left: 10px;
+    text-align: justify;
     font-family: "Days Sans Black", sans-serif;
     font-size: 25px;
     font-weight: 600;
-    margin: 0;
-    padding: 10px;
     color: #808080;
+    
 
 
 }
@@ -92,19 +94,18 @@ body {
 
 
 .box {
+
     background-color: #030712;
-    height: 100vh;
-    width: 0;
-    position: fixed;
+    height: 0vh;
+    width: 0vw;
+    position: absolute;
     display: none;
-    
-   
-    left: -250;
-    
-    z-index: 4;
-    transition: right 7ms ease-in-out;
+
     bottom: 0;
-    
+    transition: width .5s ease;
+    z-index: 4;
+
+
 }
 
 .m1 {
@@ -160,4 +161,49 @@ body {
     top: 5%;
     left: 95%;
     transform: rotate(138deg);
+}
+
+.recem{
+    position: absolute;
+    color: white;
+    margin-left: 40px;
+    top: 150px;
+    padding: 0;
+}
+.l{
+    
+    background-color: white;
+    height: 1px;
+    width: 140%;
+
+}
+
+
+.tbate {
+    padding:0;
+    margin-left: 200px;
+    margin-top: 200px;
+    background-color: #0e1423;
+    height: 500px;
+    width: 200px;
+    border-radius: 12px 12px 12px 12px;
+}
+
+.img_tbate {
+
+    border-radius: 12px 12px 12px 12px;
+    height: 300px;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    position: fixed;
+    font-weight: 800;
+    font-size: 15px;
+    padding: 10px;
+    color: white;
+    margin: 0;
+    top: 600px;
+
+
 }
