@@ -48,7 +48,7 @@ body {
     font-size: 25px;
     font-weight: 600;
     color: #808080;
-    
+
 
 
 }
@@ -163,15 +163,55 @@ body {
     transform: rotate(138deg);
 }
 
-.recem{
+.busca{
+    position: absolute;
+        background-color:#2F4F4F;
+        border:solid 1px;
+        border-radius:15px;
+        width:300px;
+        margin-left: 1200px;
+        top: 20px;
+      
+      
+}
+.pesquisa{
+    position: absolute;
+    background-color: #212327;
+    float:left;
+    border-radius: 5px 5px 5px 5px;
+    padding-left:5px;
+    font-style:italic;
+    font-size:18px;
+    border:none;
+    height:32px;
+    width:260px;
+}
+.pesquisa:focus{
+
+background-color: #525252;
+
+}
+
+#btnBusca{
+
+margin-left: 1350px;
+height: 30px;
+width: 30px;
+
+}
+
+
+
+.recem {
     position: absolute;
     color: white;
     margin-left: 40px;
     top: 150px;
     padding: 0;
 }
-.l{
-    
+
+.l {
+
     background-color: white;
     height: 1px;
     width: 140%;
@@ -180,7 +220,7 @@ body {
 
 
 .cards {
-    padding:0;
+    padding: 0;
     margin-left: 200px;
     margin-top: 200px;
     background-color: #0e1423;
@@ -189,24 +229,20 @@ body {
     border-radius: 12px 12px 12px 12px;
 }
 
-.tbate{
-
-
-    margin-left: 200px;
-}
-.mercenary{
-    margin-top: -300px;
-    margin-left: 500px;
-}
-
 .img_cards {
-
+    cursor: pointer;
     border-radius: 12px 12px 12px 12px;
     height: 300px;
     width: 200px;
 }
 
+.img_cards:hover {
+    
+filter: grayscale(0.5);
+}
+
 p {
+    cursor: pointer;
     font-family: Arial, Helvetica, sans-serif;
     position: fixed;
     font-weight: 800;
@@ -217,4 +253,38 @@ p {
     top: 600px;
 
 
+}
+
+p:hover {
+ 
+    color: #0032bb;
+
+
+}
+
+
+.tbate {
+
+
+    margin-left: 50px;
+}
+
+.mercenary {
+    margin-top: -300px;
+    margin-left: 350px;
+}
+
+.emperior {
+    margin-top: -300px;
+    margin-left: 650px;
+}
+
+.orv {
+    margin-top: -300px;
+    margin-left: 950px;
+}
+
+.eleceed {
+    margin-top: -300px;
+    margin-left: 1250px;
 }
