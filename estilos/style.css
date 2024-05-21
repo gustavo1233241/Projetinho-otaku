@@ -193,10 +193,12 @@ background-color: #525252;
 }
 
 #btnBusca{
-
-margin-left: 1350px;
+position: absolute;
+margin-left: 235px;
+border-radius: 0px 3px 3px 0px;
 height: 30px;
 width: 30px;
+background-color: #525252;
 
 }
 
