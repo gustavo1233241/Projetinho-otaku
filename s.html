@@ -1,47 +1,41 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Off-canvas Deslizable</title>
-    <link rel="stylesheet" href="styles.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Transição ao Clicar</title>
+<style>
+
+.outer {
+  width: 200px;
+  height: 200px;
+  background-color: blue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.inner {
+  font-size: 24px;
+  color: white;
+  transition: color 0.3s ease;
+}
+
+.outer:hover .inner {
+  color: red; /* Mudança de cor no hover externo */
+}
+
+.outer:hover .inner:hover {
+  color: green; /* Mudança de cor no hover interno */
+}
+
+
+</style>
 </head>
 <body>
-    <style>
+<div class="outer">
+  <div class="inner">Texto</div>
+</div>
 
-        .tbate{
-
-            background-color: #030712;
-            height: 400px;
-            width: 200px;
-            border-radius: 5px 5px 5px 5px;
-        }
-        .img_tbate{
-
-            border-radius: 22px 22px 22px 22px;
-            padding: 15px;
-            height: 250px;
-
-        }
-        p{
-            font-family: Arial, Helvetica, sans-serif;
-            position: absolute;
-            font-weight: 800;
-            font-size: 15px;
-            padding: 10px;
-            color: white;
-            margin: 0;
-            top: 300px;
-            
-        }
-
-    </style>
-    <div class="tbate">
-
-        <img class="img_tbate" src="imagens/tbate.jfif">
-        <p>the beginning after the<br> end</p>
-    </div>
-
- 
 </body>
 </html>

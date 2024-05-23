@@ -24,8 +24,8 @@
             <div id="box" class="box">
 
                 <div class="home">
-                    <img src="imagens/casa.png">
-                    <h1 class="m1">Home</h1>
+                    <img id="home" src="imagens/casa.png">
+                    <h1 id="h1" class="m1">Home</h1>
                 </div>
                 <div id="fecha_Box" onclick="btnOffcanvas()">
 
@@ -53,16 +53,16 @@
             </div>
         </div>
 
-    
-        
-          
-<div class="busca">
 
-    <input type="text" class="pesquisa" placeholder="Buscar..."/>
-  <div class="icone lupa"></div>
-    
-</div>
-        
+
+
+        <div class="busca">
+
+            <input type="text" class="pesquisa" placeholder="Buscar..." />
+            <div class="icone lupa"></div>
+
+        </div>
+
     </header>
 
     <main>
@@ -72,50 +72,100 @@
                 <div class="l"></div>
             </h1>
 
-            
+
             <div class="cards">
                 <div class="tbate">
 
                     <img class="img_cards" src="imagens/tbate.png">
                     <p>The beginning after <br>the end</p>
+
+
+                    <div class="avalie">
+
+                        <div class="estrela" id="estrela1" onmouseover="estrelas()" onmouseout='Tira_estrelas()'>★</div>
+                        <div class="estrela" id="estrela2" onmouseover="estrelas2()" onmouseout='Tira_estrelas2()'>★</div>
+                        <div class="estrela" id="estrela3" onmouseover="estrelas3()" onmouseout='Tira_estrelas3()' >★</div>
+                        <div class="estrela" id="estrela4" onmouseover="estrelas4()" onmouseout='Tira_estrelas4()'>★</div>
+                        <div class="estrela" id="estrela5" >★</div>
+                    </div>
                 </div>
 
                 <div class="mercenary">
 
                     <img class="img_cards" src="imagens/mercenary.png">
                     <p>Mercenary enrollment</p>
+
+                    <div class="avalie">
+
+                        <div class="estrela" id="estrela5" onmouseover="estrelas5()" onmouseout='Tira_estrelas5()'>★</div>
+                        <div class="estrela" id="estrela6" onmouseover="estrelas6()" onmouseout='Tira_estrelas6()'>★</div>
+                        <div class="estrela" id="estrela7" onmouseover="estrelas7()" onmouseout='Tira_estrelas7()' >★</div>
+                        <div class="estrela" id="estrela8" onmouseover="estrelas8()" onmouseout='Tira_estrelas8()'>★</div>
+                        <div class="estrela" id="estrela9" >★</div>
+                    </div>
                 </div>
+            
 
-                <div class="emperior">
+            <div class="emperior">
 
-                    <img class="img_cards" src="imagens/emperior.png">
-                    <p>Magic Emperor
-                    </p>
+                <img class="img_cards" src="imagens/emperior.png">
+                <p>Magic Emperor
+                </p>
+
+                <div class="avalie">
+
+                    <div class="estrela" id="estrela1" onmouseover="estrelas()" onmouseout='Tira_estrelas()'>★</div>
+                    <div class="estrela" id="estrela2" onmouseover="estrelas2()" onmouseout='Tira_estrelas2()'>★</div>
+                    <div class="estrela" id="estrela3" onmouseover="estrelas3()" onmouseout='Tira_estrelas3()' >★</div>
+                    <div class="estrela" id="estrela4" onmouseover="estrelas4()" onmouseout='Tira_estrelas4()'>★</div>
+                    <div class="estrela" id="estrela5" >★</div>
                 </div>
+            </div>
 
-                <div class="orv">
 
-                    <img class="img_cards" src="imagens/ominiscient Reader`s Viewpoint.png">
-                    <p>Omniscient Reader's <br> Viewpoint
-                    </p>
+            <div class="orv">
+
+                <img class="img_cards" src="imagens/ominiscient Reader`s Viewpoint.png">
+                <p>Omniscient Reader's <br> Viewpoint
+                </p>
+                <div class="avalie">
+
+                    <div class="estrela" id="estrela1" onmouseover="estrelas()" onmouseout='Tira_estrelas()'>★</div>
+                    <div class="estrela" id="estrela2" onmouseover="estrelas2()" onmouseout='Tira_estrelas2()'>★</div>
+                    <div class="estrela" id="estrela3" onmouseover="estrelas3()" onmouseout='Tira_estrelas3()' >★</div>
+                    <div class="estrela" id="estrela4" onmouseover="estrelas4()" onmouseout='Tira_estrelas4()'>★</div>
+                    <div class="estrela" id="estrela5" >★</div>
+
                 </div>
+            </div>
 
-                <div class="eleceed">
-                   
-                    <img class="img_cards" src="imagens/eleceed.png">
-                    <p>Eleceed
-                    </p>
+            <div class="eleceed">
 
+                <img class="img_cards" src="imagens/eleceed.png">
+                <p>Eleceed
+                </p>
+
+                
+                <div class="avalie">
+
+                    <div class="estrela" id="estrela1" onmouseover="estrelas()" onmouseout='Tira_estrelas()'>★</div>
+                    <div class="estrela" id="estrela2" onmouseover="estrelas2()" onmouseout='Tira_estrelas2()'>★</div>
+                    <div class="estrela" id="estrela3" onmouseover="estrelas3()" onmouseout='Tira_estrelas3()' >★</div>
+                    <div class="estrela" id="estrela4" onmouseover="estrelas4()" onmouseout='Tira_estrelas4()'>★</div>
+                    <div class="estrela" id="estrela5" >★</div>
                 </div>
+                
 
             </div>
         </div>
+        </div>
+       
 
     </main>
 
     <footer>
 
-       
+
     </footer>
 
     <script src="script.js"></script>
