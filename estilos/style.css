@@ -15,6 +15,7 @@
     0% {
         transform: translateX(-600px);
     }
+
     100% {
         transform: translateX(0);
     }
@@ -24,6 +25,7 @@
     0% {
         transform: translateX(100px);
     }
+
     100% {
         transform: translateX(0);
     }
@@ -136,6 +138,34 @@ body {
 
 }
 
+.estrela {
+
+    font-size: 30px;
+    cursor: pointer;
+    color: yellow;
+    /* Define uma divisão de cores */
+    transition: color 0.3s ease;
+    /* Adiciona uma transição suave */
+
+}
+
+.estrela:hover {
+
+    background-image:linear-gradient(to left, rgb(45, 46, 41) 50%, rgb(192, 175, 17) 60%);
+    background-clip: text;
+    font-weight: 700;
+    color: transparent;
+    
+
+}
+
+.avalie {
+    position: absolute;
+    display: flex;
+    gap: 10px;
+    top: 670px;
+}
+
 .home img {
     cursor: pointer;
     position: fixed;
@@ -149,11 +179,7 @@ body {
 }
 
 
-.fecha{
 
-    animation: go-bac 1s;
-
-}
 
 #fecha_Box {
     position: absolute;
@@ -163,7 +189,7 @@ body {
     width: 15px;
     top: 5%;
     left: 92%;
-   
+
 }
 
 .x1 {
@@ -191,46 +217,7 @@ body {
     transform: rotate(138deg);
 }
 
-.cardsSlides {
 
-
-    margin: 0 auto;
-    width: 100%;
-    height: auto;
-    padding: 0;
-    overflow: hidden;
-
-}
-
-.cardsSlides-content {
-
-
-
-    width: 400%;
-    height: auto;
-    display: flex;
-
-
-}
-
-
-.cardsSlides-content input {
-
-    display: none;
-
-}
-
-
-.slideBox{
-
-width: 25%;
-height: auto;
-position: relative;
-text-align: center;
-
-
-
-}
 .busca {
     position: absolute;
     background-color: #525252;
