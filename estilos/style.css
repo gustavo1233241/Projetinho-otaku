@@ -169,13 +169,12 @@ body {
 .home img {
     cursor: pointer;
     position: fixed;
-    top: 50px;
-    display: block;
-    align-items: start;
     margin: 0;
-    padding: 0;
+    
+    padding-top: 30px;
     height: 30px;
     width: 30px;
+
 }
 
 
@@ -186,9 +185,9 @@ body {
     margin: 0;
     cursor: pointer;
     height: 27px;
-    width: 15px;
+    width: 18px;
     top: 5%;
-    left: 92%;
+    left: 93%;
 
 }
 
@@ -201,7 +200,7 @@ body {
     display: block;
     content: "";
     top: 5%;
-    left: 95%;
+    left: 40%;
     transform: rotate(40deg);
 }
 
@@ -213,7 +212,7 @@ body {
     display: block;
     content: "";
     top: 5%;
-    left: 95%;
+    left: 40%;
     transform: rotate(138deg);
 }
 

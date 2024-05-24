@@ -37,6 +37,17 @@ var estrela7 = document.getElementById('estrela7')
 var estrela8 = document.getElementById('estrela8')
 var estrela9 = document.getElementById('estrela9')
 var estrela10 = document.getElementById('estrela10')
+var estrela11 = document.getElementById('estrela11')
+var estrela12 = document.getElementById('estrela12')
+var estrela13 = document.getElementById('estrela13')
+var estrela14 = document.getElementById('estrela14')
+var estrela15 = document.getElementById('estrela15')
+var estrela16 = document.getElementById('estrela16')
+var estrela17 = document.getElementById('estrela17')
+var estrela18 = document.getElementById('estrela18')
+var estrela19 = document.getElementById('estrela19')
+var estrela20 = document.getElementById('estrela20')
+var estrela21 = document.getElementById('estrela21')
 
 function estrelas() {
     if (interruptor) {
@@ -85,7 +96,7 @@ function Tira_estrelas3() {
         estrela4.style.color = 'yellow';
         estrela5.style.color = 'yellow';
         interruptor = true
- }
+    }
 }
 function estrelas4() {
 
@@ -124,7 +135,7 @@ function Tira_estrelas5() {
 function estrelas6() {
 
     if (interruptor) {
-       
+
         estrela7.style.color = 'rgb(45, 46, 41)';
         estrela8.style.color = 'rgb(45, 46, 41)';
         estrela9.style.color = 'rgb(45, 46, 41)';
@@ -143,8 +154,8 @@ function Tira_estrelas6() {
 function estrelas7() {
 
     if (interruptor) {
-       
-      
+
+
         estrela8.style.color = 'rgb(45, 46, 41)';
         estrela9.style.color = 'rgb(45, 46, 41)';
         interruptor = true
@@ -152,8 +163,8 @@ function estrelas7() {
 }
 function Tira_estrelas7() {
     if (interruptor) {
-        
-      
+
+
         estrela8.style.color = 'yellow';
         estrela9.style.color = 'yellow';
         interruptor = true
@@ -163,22 +174,296 @@ function Tira_estrelas7() {
 function estrelas8() {
 
     if (interruptor) {
-       
-      
-        
+
+
+
         estrela9.style.color = 'rgb(45, 46, 41)';
         interruptor = true
     }
 }
 function Tira_estrelas8() {
     if (interruptor) {
-        
-      
-    
+
+
+
         estrela9.style.color = 'yellow';
         interruptor = true
     }
 }
+
+function estrelas9() {
+
+    if (interruptor) {
+        estrela10.style.color = 'rgb(45, 46, 41)';
+        estrela11.style.color = 'rgb(45, 46, 41)';
+        estrela12.style.color = 'rgb(45, 46, 41)';
+        estrela13.style.color = 'rgb(45, 46, 41)';
+        interruptor = true
+    }
+}
+function Tira_estrelas9() {
+    if (interruptor) {
+        estrela10.style.color = 'yellow';
+        estrela11.style.color = 'yellow';
+        estrela12.style.color = 'yellow';
+        estrela13.style.color = 'yellow';
+        interruptor = true
+    }
+}
+
+
+function estrelas10() {
+
+    if (interruptor) {
+
+        estrela11.style.color = 'rgb(45, 46, 41)';
+        estrela12.style.color = 'rgb(45, 46, 41)';
+        estrela13.style.color = 'rgb(45, 46, 41)';
+        interruptor = true
+    }
+}
+function Tira_estrelas10() {
+    if (interruptor) {
+
+        estrela11.style.color = 'yellow';
+        estrela12.style.color = 'yellow';
+        estrela13.style.color = 'yellow';
+        interruptor = true
+    }
+}
+
+function estrelas11() {
+
+    if (interruptor) {
+
+        estrela12.style.color = 'rgb(45, 46, 41)';
+        estrela13.style.color = 'rgb(45, 46, 41)';
+        interruptor = true
+    }
+}
+function Tira_estrelas11() {
+    if (interruptor) {
+
+
+        estrela12.style.color = 'yellow';
+        estrela13.style.color = 'yellow';
+        interruptor = true
+    }
+}
+
+
+function estrelas12() {
+
+    if (interruptor) {
+
+
+        estrela13.style.color = 'rgb(45, 46, 41)';
+        interruptor = true
+    }
+}
+function Tira_estrelas12() {
+    if (interruptor) {
+
+        estrela13.style.color = 'yellow';
+        interruptor = true
+    }
+}
+
+function estrelas13() {
+
+    if (interruptor) {
+        
+        estrela14.style.color = 'rgb(45, 46, 41)';
+        estrela15.style.color = 'rgb(45, 46, 41)';
+        estrela16.style.color = 'rgb(45, 46, 41)';
+        estrela17.style.color = 'rgb(45, 46, 41)';
+        
+        
+        interruptor = true
+    }
+}
+function Tira_estrelas13() {
+    if (interruptor) {
+        
+        estrela14.style.color = 'yellow';
+        estrela15.style.color = 'yellow';
+        estrela16.style.color = 'yellow';
+        estrela17.style.color = 'yellow';
+        interruptor = true
+    }
+}
+function estrelas14() {
+
+    if (interruptor) {
+        
+        
+        estrela15.style.color = 'rgb(45, 46, 41)';
+        estrela16.style.color = 'rgb(45, 46, 41)';
+        estrela17.style.color = 'rgb(45, 46, 41)';
+        
+        
+        interruptor = true
+    }
+}
+function Tira_estrelas14() {
+    if (interruptor) {
+        
+    
+        estrela15.style.color = 'yellow';
+        estrela16.style.color = 'yellow';
+        estrela17.style.color = 'yellow';
+        interruptor = true
+    }
+}
+function estrelas15() {
+
+    if (interruptor) {
+        
+        
+       
+        estrela16.style.color = 'rgb(45, 46, 41)';
+        estrela17.style.color = 'rgb(45, 46, 41)';
+        
+        
+        interruptor = true
+    }
+}
+function Tira_estrelas15() {
+    if (interruptor) {
+        
+    
+       
+        estrela16.style.color = 'yellow';
+        estrela17.style.color = 'yellow';
+        interruptor = true
+    }
+}
+
+function estrelas16() {
+
+    if (interruptor) {
+        
+        
+       
+    
+        estrela17.style.color = 'rgb(45, 46, 41)';
+        
+        
+        interruptor = true
+    }
+}
+function Tira_estrelas16() {
+    if (interruptor) {
+        
+    
+       
+        
+        estrela17.style.color = 'yellow';
+        interruptor = true
+    }
+}
+function estrelas17() {
+
+    if (interruptor) {
+        
+        
+       
+    
+        estrela18.style.color = 'rgb(45, 46, 41)';
+        estrela19.style.color = 'rgb(45, 46, 41)';
+        estrela20.style.color = 'rgb(45, 46, 41)';
+        estrela21.style.color = 'rgb(45, 46, 41)';
+        
+        
+        interruptor = true
+    }
+}
+function Tira_estrelas17() {
+    if (interruptor) {
+        
+    
+       
+        
+        estrela18.style.color = 'yellow';
+        estrela19.style.color = 'yellow';
+        estrela20.style.color = 'yellow';
+        estrela21.style.color = 'yellow';
+        interruptor = true
+    }
+}
+function estrelas18() {
+
+    if (interruptor) {
+        
+        estrela19.style.color = 'rgb(45, 46, 41)';
+        estrela20.style.color = 'rgb(45, 46, 41)';
+        estrela21.style.color = 'rgb(45, 46, 41)';
+          
+        interruptor = true
+    }
+}
+function Tira_estrelas18() {
+    if (interruptor) {
+
+    
+        estrela19.style.color = 'yellow';
+        estrela20.style.color = 'yellow';
+        estrela21.style.color = 'yellow';
+        interruptor = true
+    }
+}
+
+function estrelas19() {
+
+    if (interruptor) {
+        
+        
+        estrela20.style.color = 'rgb(45, 46, 41)';
+        estrela21.style.color = 'rgb(45, 46, 41)';
+          
+        interruptor = true
+    }
+}
+function Tira_estrelas19() {
+    if (interruptor) {
+
+    
+        
+        estrela20.style.color = 'yellow';
+        estrela21.style.color = 'yellow';
+        interruptor = true
+    }
+}
+function estrelas20() {
+
+    if (interruptor) {
+        
+        
+     
+        estrela21.style.color = 'rgb(45, 46, 41)';
+          
+        interruptor = true
+    }
+}
+function Tira_estrelas20() {
+    if (interruptor) {
+
+    
+        
+  
+        estrela21.style.color = 'yellow';
+        interruptor = true
+    }
+}
+
+
+
+
+
+
+
+
+
 
 
 
