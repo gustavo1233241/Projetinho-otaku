@@ -68,3 +68,27 @@ main {
     height: 380px;
     background-color: #0e0e12;
 }
+.icone.lupa {
+    width: 15px;
+    height: 15px;
+    border: 2px solid #918d8d;
+    border-radius: 50%;
+    position: relative;
+    margin-top: 6px;
+    right: -270px;
+}
+
+.icone.lupa:after {
+    position: absolute;
+    width: 13px;
+    height: 2px;
+    background-color: #918d8d;
+    display: block;
+    content: "";
+    top: 3%;
+    left: 40%;
+
+    transform: rotate(45deg);
+    transform-origin: -10px 15px;
+
+}

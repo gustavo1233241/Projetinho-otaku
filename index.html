@@ -24,10 +24,12 @@
 
             <div id="box" class="box">
 
-                <div class="home">
+                <a href="index.html">
+                <div class="home" >
                     <img id="home" src="imagens/casa.png">
                     <h1 id="h1" class="m1">Home</h1>
                 </div>
+            </a>
                 <div id="fecha_Box" onclick="btnOffcanvas()">
 
                     <div class="x1"></div>
@@ -59,8 +61,10 @@
 
         <div class="busca">
 
-            <input type="text" class="pesquisa" placeholder="Buscar..." />
+            <input type="text" id="pesquisa" class="pesquisa" placeholder="Buscar..." />
+            <div id="btn_pesquisa" onclick="btn_pesquisa()">
             <div class="icone lupa"></div>
+        </div>
 
         </div>
 
@@ -170,6 +174,7 @@
     </footer>
 
     <script src="script.js"></script>
+    <script src="inputs.js"></script>
 </body>
 
 </html>
