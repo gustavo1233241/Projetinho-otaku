@@ -59,12 +59,24 @@
 
 
 
-        <div class="busca">
+    <div class="busca">
 
-            <input type="text" class="pesquisa" placeholder="Buscar..." />
-            <div class="icone lupa"></div>
+        <input type="text" id="pesquisa" class="pesquisa" placeholder="Buscar..." list="lista" />
 
-        </div>
+        <datalist class="sujestao" id="lista">
+            <option value="the Beginning After The End "></option>
+            <option value="ominiscient Reader`s Viewpoint"></option>
+            <option value="mercenary enrollment"></option>
+            <option value="magic emperior"></option>
+
+
+
+        </datalist>
+        <div id="btn_pesquisa" onclick="btn_pesquisa()">
+        <div class="icone lupa"></div>
+    </div>
+
+    </div>
 
     </header>
 
@@ -104,6 +116,7 @@
     </footer>
 
     <script src="script.js"></script>
+    <script src="inputs.js"></script>
 </body>
 
 </html>
