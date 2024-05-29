@@ -1,26 +1,38 @@
 main {
-
+    height: 1200px;
     padding: 100px;
 }
 
-.ler_tbate {
-    position: fixed;
+.ler {
+    position: absolute;
     padding-left: 100px;
     height: 700px;
     width: 1200px;
 }
 
-.ler_tbate p {
+.ler p {
     
     position: absolute;
     top: 20px;
-    left: 300px;
+    left: 340px;
     font-weight: 500;
     font-size: 30px;
    
     
 }
+.resumo{
 
+    position: absolute;
+    bottom:-400px;
+    right:0px;
+    width: 1000px;
+    height: 400px;
+    background-color: #0e0e12;
+    border-radius: 8px 8px 8px 8px;
+
+
+
+}
 .texto{
     
     position: absolute;
@@ -33,7 +45,7 @@ main {
     border-radius: 8px 8px 8px 8px;
 }
 
-.ler_tbate p:hover{
+.ler p:hover{
     
     color: #ffffff;
 }
@@ -47,8 +59,8 @@ main {
 }
 
 #tbateL {
-    position: fixed;
-    top: 500px;
+    position: absolute;
+    top: 50px;
     padding-left: 100px;
 
 }

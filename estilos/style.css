@@ -32,6 +32,12 @@
 }
 
 
+a{
+
+text-decoration: none;
+
+}
+
 #btn_pesquisa{
 position: fixed;
 width: 40px;
