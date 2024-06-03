@@ -39,7 +39,7 @@ text-decoration: none;
 }
 
 #btn_pesquisa{
-position: fixed;
+position: static;
 width: 40px;
 height: 50px;
 left: 1470px;
@@ -245,7 +245,7 @@ body {
 .pesquisa {
     position: absolute;
     background-color: #212327;
-    color: #bababa;
+    color: #cccccc;
     outline: none;
     float: left;
     border-radius: 5px 0px 0px 5px;
@@ -268,9 +268,9 @@ body {
     height: 15px;
     border: 2px solid #918d8d;
     border-radius: 50%;
-    position: relative;
+    position:absolute;
     margin-top: 6px;
-    right: -4px;
+    right: 10px;
 }
 
 .icone.lupa:after {
@@ -278,11 +278,8 @@ body {
     width: 13px;
     height: 2px;
     background-color: #918d8d;
-    display: block;
     content: "";
-    top: 3%;
-    left: 40%;
-
+    left:6px;
     transform: rotate(45deg);
     transform-origin: -10px 15px;
 
@@ -376,3 +373,13 @@ p:hover {
     margin-top: -300px;
     margin-left: 1250px;
 }
+.salve{
+    background-color: #222020;
+    position: absolute;
+    left: 400px;
+    top: 295px;
+    cursor: pointer;
+    z-index: 1;
+
+}
+
